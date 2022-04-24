@@ -4,7 +4,7 @@ version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: '>=2.17.0-266.1.beta <3.0.0'
+  sdk: '>=2.16.0 <3.0.0'
 
 dependencies:
   local:
@@ -14,7 +14,7 @@ dependencies:
     git:
       url: https://github.com/AdamVe/dart_packages.git
       path: packages/git_based
-      ref: 60af6ee
+      ref: stable
 
 dev_dependencies:
-  lints: ^2.0.0
+  lints: ^1.0.0
