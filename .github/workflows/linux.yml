@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+    branches: [ beta, stable ]
+  pull_request:
+    branches: [ beta, stable ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dart-lang/setup-dart@9a04e6d73cca37bd455e0608d7e5092f881fd603
+      
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Run project
+        run: dart analyze
+
+      - name: Verify git changes
+        run: git diff --exit-code
