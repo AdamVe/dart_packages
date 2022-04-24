@@ -1,0 +1,27 @@
+
+name: Build
+
+on:
+  push:
+    branches: [ beta ]
+  pull_request:
+    branches: [ beta ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: "2.17.0-266.5.beta"
+      
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Run project
+        run: dart run
+
+      - name: Verify git changes
+        run: git diff --exit-code
