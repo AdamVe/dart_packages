@@ -59,7 +59,7 @@ index bde86b3..61d648b 100644
      version: "1.0.0"
 ```
 
-### dart stable
+# dart stable
 This repo contains a branch with dart stable as well
 
 The **error does not exists in stable** 
@@ -68,6 +68,20 @@ The **error does not exists in stable**
 
 ```
 git clone git@github.com:AdamVe/dart_packages.git -b stable
+cd dart_packages
+dart run
+git diff
+```
+
+# dart dev
+This repo contains a branch with dart dev as well
+
+The **error does not exists in dev** 
+1. switch to dart dev `Dart SDK version: 2.18.0-44.0.dev (dev) (Fri Apr 22 02:54:38 2022 -0700) on "windows_x64"`
+2. checkout the dev branch, run the project and see git diff:
+
+```
+git clone git@github.com:AdamVe/dart_packages.git -b dev
 cd dart_packages
 dart run
 git diff
