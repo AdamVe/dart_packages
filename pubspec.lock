@@ -5,8 +5,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/git_based"
-      ref: "60af6ee"
-      resolved-ref: "60af6ee4cb1a2cce5f1cabde21dce41bc461b1db"
+      ref: stable
+      resolved-ref: "0d8196e10a353ccf0aea108ef9f48f8d33959f3a"
       url: "https://github.com/AdamVe/dart_packages.git"
     source: git
     version: "1.0.0"
@@ -16,7 +16,7 @@ packages:
       name: lints
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0"
+    version: "1.0.1"
   local:
     dependency: "direct main"
     description:
@@ -25,4 +25,4 @@ packages:
     source: path
     version: "1.0.0"
 sdks:
-  dart: ">=2.17.0-266.1.beta <3.0.0"
+  dart: ">=2.16.0 <3.0.0"

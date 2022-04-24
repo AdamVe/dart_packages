@@ -89,7 +89,7 @@
         <entry key="git_based">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/git/dart_packages-60af6ee4cb1a2cce5f1cabde21dce41bc461b1db/packages/git_based/lib" />
+              <option value="$USER_HOME$/.pub-cache/git/dart_packages-0d8196e10a353ccf0aea108ef9f48f8d33959f3a/packages/git_based/lib" />
             </list>
           </value>
         </entry>
@@ -131,6 +131,7 @@
         <entry key="lints">
           <value>
             <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/lib" />
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/lints-2.0.0/lib" />
             </list>
           </value>
@@ -341,7 +342,7 @@
       </option>
     </properties>
     <CLASSES>
-      <root url="file://$USER_HOME$/.pub-cache/git/dart_packages-60af6ee4cb1a2cce5f1cabde21dce41bc461b1db/packages/git_based/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/git/dart_packages-0d8196e10a353ccf0aea108ef9f48f8d33959f3a/packages/git_based/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-39.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/analyzer-4.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/args-2.3.0/lib" />
@@ -359,6 +360,7 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/io-1.0.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/js-0.6.4/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/lints-2.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/logging-1.0.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.11/lib" />
