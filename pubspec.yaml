@@ -10,5 +10,11 @@ dependencies:
   local:
     path: packages/local
 
+  git_based:
+    git:
+      url: https://github.com/AdamVe/dart_packages.git
+      path: packages/git_based
+      ref: 60af6ee
+
 dev_dependencies:
   lints: ^2.0.0
