@@ -1,3 +1,5 @@
-void main(List<String> arguments) {
-  print('Hello world: 42!');
+import 'package:local/local.dart' as local;
+
+void main() {
+  print('Result from local: ${local.calculate()}!');
 }
