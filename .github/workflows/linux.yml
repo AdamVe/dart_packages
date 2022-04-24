@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches: [ beta, stable ]
+    branches: [ beta ]
   pull_request:
-    branches: [ beta, stable ]
+    branches: [ beta ]
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
         run: dart pub get
 
       - name: Run project
-        run: dart analyze
+        run: dart run
 
       - name: Verify git changes
         run: git diff --exit-code
